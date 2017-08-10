@@ -37,7 +37,7 @@ public class UnsuccessfullSignInPageTest {
 		SignPage.signInButtonClick(driver);
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		
-		wait.until(ExpectedConditions.titleContains("Sign in"));
+		wait.until(ExpectedConditions.titleContains("Sign in to GitHub · GitHub"));
 		Assert.assertEquals("Sign in to GitHub · GitHub", driver.getTitle());
 		}
 	
