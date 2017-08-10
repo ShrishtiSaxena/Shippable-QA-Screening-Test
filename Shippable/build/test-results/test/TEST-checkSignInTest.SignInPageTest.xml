@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="checkSignInTest.SignInPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-08-10T11:53:03" hostname="shrishti" time="25.861">
+  <properties/>
+  <testcase name="Sigin" classname="checkSignInTest.SignInPageTest" time="25.861"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
