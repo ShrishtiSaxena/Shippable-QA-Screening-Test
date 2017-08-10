@@ -22,7 +22,7 @@ public class UnsuccessfullSignInPageTest {
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver",
 
-				"C://check/src/resources/chromedriver.exe");
+				"C://Shippable-QA-Screening-Test/Shippable/src/resources/chromedriver.exe");
 	 driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -37,8 +37,8 @@ public class UnsuccessfullSignInPageTest {
 		SignPage.signInButtonClick(driver);
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		
-		wait.until(ExpectedConditions.titleContains("Sign in to GitHub · GitHub"));
-		Assert.assertEquals("Sign in to GitHub · GitHub", driver.getTitle());
+		wait.until(ExpectedConditions.titleContains("Sign in to GitHub Â· GitHub"));
+		Assert.assertEquals("Sign in to GitHub Â· GitHub", driver.getTitle());
 		}
 	
 	
