@@ -1,3 +1,8 @@
+I have used Gradle as a build tool,Java as a Language , Selenium as a Automation Tool and Page Object Model as a Frame Work
+
+Please find the below steps to run the Project using Command Prompt
+
+
 Open Command Prompt
 
 Change the current directory to C:
