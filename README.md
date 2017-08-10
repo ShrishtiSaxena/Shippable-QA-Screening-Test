@@ -1,2 +1,2 @@
 # Shippable-QA-Screening-Test
-Selenium Test Script to Successful login to GitHub
+Clone the repository in to the local in C drive
