@@ -24,7 +24,7 @@ public class SuccessfullSignInPageTest {
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver",
 
-				"C://check/src/resources/chromedriver.exe");
+				"C://Shippable-QA-Screening-Test/Shippable/src/resources/chromedriver.exe");
 	 driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
